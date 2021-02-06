@@ -1,0 +1,118 @@
+*{
+box-sizing: border-box;
+}
+h1,h2,h3{
+    margin: 0;
+}
+p{
+    margin-bottom: 0;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 1500px;
+    font-family:  'Sriracha', cursive,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+.wrapper-page{
+    width: 100%;
+    height: 100%;
+    background: url(./images/page-bg.jpg) no-repeat fixed center;
+    background-size: cover;
+    color: #fff;
+}
+/*************Menu**********************/
+.menu{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: #A43F49;
+    color: #fff;
+    left: 5%;
+    top: 0;
+    z-index: 99;
+    text-align: center;
+    overflow-y: auto;
+}
+.main-page{
+    /* position: relative;
+    left: 40%; */
+    width: 50%;
+    margin-left: 40%;
+}
+
+    /* padding: 40px 10px; */
+
+
+.menu-section {
+    margin-bottom: 20px;
+    padding: 20px 10px;
+}
+.profilePic{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    
+}
+.profilePic img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #888;
+    
+}
+.heading{
+    font-size: 28px;
+}
+.job{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.navigation {
+    width: 100%;
+}
+.navigation .navItem{
+    display: block;
+    padding:  20px 0;
+    border-bottom: 2px solid #fff;
+    
+}
+
+.navigation .navItem:first-child{
+    border-top: 2px solid #fff;
+}
+.social-media{
+    margin: 40px auto;
+
+}
+.social-media li{
+    display: inline-block;
+    margin-right: 8px;
+    width: 36px;
+    height: 36px;
+    background-color: #606061;
+    text-align: center;
+    line-height: 40px;
+}
+.copyright-text{
+    border-top: 1px solid rgba(250, 250, 250, 0.1);
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.section{
+    padding: 50px 10px;
+}
